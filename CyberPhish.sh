@@ -1,9 +1,9 @@
 #!/bin/bash
 
 ##   Zphisher 	: 	Automated Phishing Tool
-##   Author 	: 	linuxsujith
+##   Author 	: 	TAHMID RAYAT 
 ##   Version 	: 	2.3.5
-##   Github 	: 	https://github.com/linuxsujith
+##   Github 	: 	https://github.com/htr-tech/zphisher
 
 
 ##                   GNU GENERAL PUBLIC LICENSE
@@ -76,7 +76,7 @@
 ##    The precise terms and conditions for copying, distribution and
 ##    modification follow.
 ##
-##      Copyright (C) 2022  HTR-TECH (https://github.com/linuxsujith)
+##      Copyright (C) 2022  HTR-TECH (https://github.com/htr-tech)
 ##
 
 ##   THANKS TO :
@@ -202,14 +202,18 @@ check_status() {
 
 ## Banner
 banner() {
-	echo "  @@@@@@@ @@@ @@@ @@@@@@@  @@@@@@@@ @@@@@@@  @@@@@@@  @@@  @@@ @@@  @@@@@@ @@@  @@@";
-echo " !@@      @@! !@@ @@!  @@@ @@!      @@!  @@@ @@!  @@@ @@!  @@@ @@! !@@     @@!  @@@";
-echo " !@!       !@!@!  @!@!@!@  @!!!:!   @!@!!@!  @!@@!@!  @!@!@!@! !!@  !@@!!  @!@!@!@!";
-echo " :!!        !!:   !!:  !!! !!:      !!: :!!  !!:      !!:  !!! !!:     !:! !!:  !!!";
-echo "  :: :: :   .:    :: : ::  : :: :::  :   : :  :        :   : : :   ::.: :   :   : :";
-echo "                                                                                   ";
+	cat <<- EOF
+		${ORANGE}
+		${ORANGE} ______      _     _     _               
+		${ORANGE}|___  /     | |   (_)   | |              
+		${ORANGE}   / / _ __ | |__  _ ___| |__   ___ _ __ 
+		${ORANGE}  / / | '_ \| '_ \| / __| '_ \ / _ \ '__|
+		${ORANGE} / /__| |_) | | | | \__ \ | | |  __/ |   
+		${ORANGE}/_____| .__/|_| |_|_|___/_| |_|\___|_|   
+		${ORANGE}      | |                                
+		${ORANGE}      |_|                ${RED}Version : ${__version__}
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by linuxsujith(tahmid.rayat)${WHITE}
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
 	EOF
 }
 
@@ -217,9 +221,9 @@ echo "                                                                          
 banner_small() {
 	cat <<- EOF
 		${BLUE}
-		${BLUE}  ░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄
-		${BLUE}  ░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
-		${BLUE}  ░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} ${__version__}
+		${BLUE}  ░▀▀█░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄
+		${BLUE}  ░▄▀░░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
+		${BLUE}  ░▀▀▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} ${__version__}
 	EOF
 }
 
@@ -345,8 +349,8 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${GREEN} Author   ${RED}:  ${ORANGE}sujith pv ${RED}[ ${ORANGE}linuxsujith ${RED}]
-		${GREEN} Github   ${RED}:  ${CYAN}https://github.com/linuxsujith
+		${GREEN} Author   ${RED}:  ${ORANGE}TAHMID RAYAT ${RED}[ ${ORANGE}HTR-TECH ${RED}]
+		${GREEN} Github   ${RED}:  ${CYAN}https://github.com/htr-tech
 		${GREEN} Social   ${RED}:  ${CYAN}https://tahmidrayat.is-a.dev
 		${GREEN} Version  ${RED}:  ${ORANGE}${__version__}
 
