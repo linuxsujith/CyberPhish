@@ -1,3 +1,5 @@
+<img width="1031" height="316" alt="Screenshot from 2026-03-25 12-47-24" src="https://github.com/user-attachments/assets/9b17cf0a-759f-4829-bfd8-fee5a57275f5" />
+
 # CyberPhish
 An automated phishing tool with 30+ templates. This Tool is made for educational purpose only ! Author will not be responsible for any misuse of this toolkit
 
